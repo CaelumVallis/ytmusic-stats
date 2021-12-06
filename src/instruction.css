@@ -1,0 +1,30 @@
+.instruction {
+    max-width: 600px;
+}
+
+.instruction-list {
+    padding: 15px 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.instruction-list li {
+    margin-bottom: 5px;
+}
+
+.instruction a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.instruction a:hover {
+    text-decoration: underline;
+}
+
+.instruction code {
+    font-size: 0.7em;
+    padding: 2px 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+

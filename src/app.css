@@ -1,0 +1,16 @@
+.app input[type='file'] {
+    display: none;
+}
+
+.app .custom-file-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.app .custom-file-input:hover {
+    box-shadow: 0 0 15px rgba(100, 149, 237, 0.5);
+}
